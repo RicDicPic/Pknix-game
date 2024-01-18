@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PKNIX's Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+
+        #iframeContainer {
+            width: 80%;
+            height: 80vh;
+            border: 2px solid #333;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        #title {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        #instructions {
+            margin-top: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">PKNIX's Game</h1>
+    
+    <div id="iframeContainer">
+        <iframe src="https://scratch.mit.edu/projects/952494376/embed" allowtransparency="true" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+
+    <p id="instructions">WASD para andar, espaço para atirar e boa sorte. Ah, o hitbox do tiro só é ativado no fim do projétil e ele atira sempre onde tá o mouse.</p>
+</body>
+</html>
